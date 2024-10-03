@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.ParentBackground{
+    background-image: url('./assets/1.jpg');
+    height: 100vh;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 22px;
+    color: rgb(0, 255, 162);
+    position: absolute;
+    left: 2%;
+    top: 16%;
+}
+.icons i{
+    cursor: pointer;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: rgb(0, 255, 162);
+    font-size: 22px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+.logIn, .logOut{
+    padding: 4px 12px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid rgb(0, 255, 162);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+}
+.logIn:hover, .logOut:hover{
+    background-color: rgb(0, 255, 162);
+}
+.container{
+    height: 78vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.firstSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftSideFirstSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.topLeftSideFirstSection{
+    background-image: url('./assets/Group\ 80.png');
+    background-size: cover;
+    background-position: center;
+    height: 12vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.downLeftSideFirstSection{
+    background-image: url('./assets/Group\ 86.png');
+    background-size: cover;
+    background-position: center;
+    height: 12vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.topLeftSideFirstSection p, .downLeftSideFirstSection p{
+    color: white;
+    font-size: 20px;
+}
+.topLeftSideFirstSection p span, .downLeftSideFirstSection p span{
+    color: rgb(0, 255, 162);
+}
+
+.rightSideFirstSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.topRightSideFirstSection{
+    height: 12vh;
+    width: 18vw;
+    background-color: rgba(0, 255, 162, 0.142);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.topRightSideFirstSection p{
+    color: white;
+    font-size: 20px;
+}
+.topRightSideFirstSection p span{
+    color: rgb(0, 255, 162);
+}
+.topRightSideFirstSection img{
+    height: 13vh;
+}
+
+.secondSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+}
+.FLSS, .SLSS, .FRSS, .SRSS{
+    height: 12vh;
+    width: 18vw;
+    background-color: rgba(0, 255, 162, 0.142);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+}
+.leftSideSecondSection, .rightSideSecondSection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.FLSS, .FRSS{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.FLSS img, .FRSS img {
+    height: 11vh;
+    width: 8vw;
+    margin-top: 12px;
+}
+.SRSS img{
+    height: 19vh;
+    width: 7vw;
+    margin-bottom: 33px;
+    margin-right: 6px;
+}
+.SLSS img{
+    height: 19vh;
+    width: 8vw;
+    margin-bottom: 50px;
+    margin-left: -14px;
+}
+.SLSS p,.SRSS p{
+    color: white;
+    font-size: 1rem;
+}
+.SLSS p span,.SRSS p span{
+    color: rgb(0, 255, 162);
+    font-size: 48px;
+}
+.centerSecondSection{
+    height: 42vh;
+    width: 38vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+    gap: 10PX;
+}
+.title{
+    font-size: 24PX;
+    letter-spacing: 2px;
+}
+.CSS{
+    background: rgb(0,0,0);
+    background: linear-gradient(320deg, rgba(0,0,0,1) 23%, rgba(0,255,162,0.12) 100%);
+    height: 35vh;
+    width: 100%;
+    border-radius: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo img{
+    height: 35vh;
+    width: 18vw;
+}
+.text img{
+    height: 8vh;
+    width: 16vw;
+}
+.trans{
+    opacity: 0.2;
+}
+
+@media screen and (max-width:928px){
+    .topLeftSideFirstSection p, .downLeftSideFirstSection p, .topRightSideFirstSection p {
+        font-size: 16px;
+    }
+    .FLSS img, .FRSS img {
+        height: 10vh;
+        width: 8vw;
+        margin-top: 8px;
+    }
+    .SLSS p span, .SRSS p span {
+        font-size: 42px;
+    }
+    .SLSS p, .SRSS p {
+        font-size: 14px;
+    }
+    .SRSS img, .SLSS img {
+        height: 17vh;
+        width: 6vw;
+    }
+    .title{
+        font-size: 20PX;
+    }
+}
+@media screen and (max-width:750px){
+    .topLeftSideFirstSection p, .downLeftSideFirstSection p, .topRightSideFirstSection p {
+        font-size: 14px;
+    }
+    .FLSS img, .FRSS img {
+        height: 9vh;
+        width: 7vw;
+        margin-top: 6px;
+    }
+    .SLSS p span, .SRSS p span {
+        font-size: 32px;
+    }
+    .SLSS p, .SRSS p {
+        font-size: 12px;
+    }
+    .title{
+        font-size: 20PX;
+    }   
+}
